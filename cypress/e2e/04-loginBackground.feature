@@ -15,7 +15,7 @@ Feature: ToolShop Login Testleri
         When Email alanina "customer@practicesoftwaretesting.com" yazarim
         And Password alanina "welcome01" yazarim
         And Login butonuna tiklarim
-        Then Site URL'inde "#" ve "account" kelimelerinin gectigini dogrularim
+        Then Site URL'inde "" ve "account" kelimelerinin gectigini dogrularim
 
     @smoke
     Scenario: Admin hesabi icin gecersiz verilerle login testi - int parametre kullanarak

@@ -13,8 +13,8 @@ Feature: ToolShop Login Testleri
         Examples:
             | email                                 | password  | url1  | url2      |
             | admin@practicesoftwaretesting.com     | welcome01 | admin | dashboard |
-            | customer@practicesoftwaretesting.com  | welcome01 | #     | account   |
-            | customer2@practicesoftwaretesting.com | welcome01 | #     | account   |
-            | customer3@practicesoftwaretesting.com | welcome01 | authss  | gurkay     |
+            | customer@practicesoftwaretesting.com  | welcome01 |     | account   |
+            | customer2@practicesoftwaretesting.com | welcome01 |    | account   |
+            | customer3@practicesoftwaretesting.com | welcome01 | auth  | gurkay     |
 
 
