@@ -2,6 +2,9 @@
 Feature: ToolShop Login Testleri
     # feature, description bloguna benzer
     # scenario, it bloguna benzer
+    #  npx cypress run -e TAGS='@smoke'
+    #  multiple cucumber report
+    #  https://www.npmjs.com/package/multiple-cucumber-html-reporter
 
     @smoke @validLogin
     # POZİTİF SENARYO
@@ -25,9 +28,9 @@ Feature: ToolShop Login Testleri
         And Login butonuna tiklarim
         Then Email'in gerekli oldugunu soyleyen bir hata mesaji gorurum
 
-    # Scenario: Linki ayni sekmede acma
-    #     Given Ben ToolShop sitesine giderim
-    #     When Github Repo linkine tiklarim
+    Scenario: Linki ayni sekmede acma
+        Given Ben ToolShop sitesine giderim
+        When Github Repo linkine tiklarim
 
 
 

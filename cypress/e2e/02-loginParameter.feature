@@ -9,8 +9,8 @@ Feature: ToolShop Login Testleri
         And Login butonuna tiklarim
         Then Site URL'inde "admin" ve "dashboard" kelimelerinin gectigini dogrularim
 
-     @smoke 
-    #  npx cypress run -e TAGS='@smoke'
+    @smoke 
+
     Scenario: Customer hesabi icin gecerli verilerle login testi - String parametre kullanarak
         Given Ben ToolShop sitesine giderim
         When Sign in linkine tiklarim
